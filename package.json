@@ -1,0 +1,33 @@
+{
+  "name": "quasar",
+  "version": "0.1.0",
+  "type": "commonjs",
+  "bin": {
+    "quasar": "./bin/cli.js"
+  },
+  "scripts": {
+    "dev": "quasar watch",
+    "build": "quasar build",
+    "quasar:init": "quasar init",
+    "quasar:create": "quasar create-app",
+    "quasar:rojo": "quasar generate-project"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "scripts"
+  ],
+  "keywords": [
+    "roblox",
+    "roblox-ts",
+    "rbxts",
+    "quasar",
+    "game-framework"
+  ],
+  "author": "you",
+  "license": "MIT",
+  "dependencies": {
+    "chokidar": "^3.6.0",
+    "picomatch": "^3.0.1"
+  }
+}
