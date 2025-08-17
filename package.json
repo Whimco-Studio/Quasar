@@ -29,5 +29,14 @@
   "dependencies": {
     "chokidar": "^3.6.0",
     "picomatch": "^3.0.1"
+  },
+  "peerDependencies": {
+    "roblox-ts": "^2.3.0",
+    "@rbxts/types": ">=1.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@rbxts/types": {
+      "optional": true
+    }
   }
 }
