@@ -1,6 +1,6 @@
 {
   "name": "@whimco/chisel-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "commonjs",
   "bin": {
     "chisel": "./bin/cli.js",
@@ -33,7 +33,7 @@
     "picomatch": "^3.0.1"
   },
   "peerDependencies": {
-    "roblox-ts": "^2.3.0",
+    "roblox-ts": "^2.3.0 || ^3.0.0",
     "@rbxts/types": ">=1.0.0"
   },
   "peerDependenciesMeta": {
@@ -43,5 +43,8 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "@whimco/chisel-cli": "^0.1.0"
   }
 }
