@@ -1,16 +1,17 @@
 {
-  "name": "quasar",
+  "name": "@whimco/chisel-cli",
   "version": "0.1.0",
   "type": "commonjs",
   "bin": {
-    "quasar": "./bin/cli.js"
+    "chisel": "./bin/cli.js",
+    "chis": "./bin/cli.js"
   },
   "scripts": {
-    "dev": "quasar watch",
-    "build": "quasar build",
-    "quasar:init": "quasar init",
-    "quasar:create": "quasar create-app",
-    "quasar:rojo": "quasar generate-project"
+    "dev": "chisel watch",
+    "build": "chisel build",
+    "chisel:init": "chisel init",
+    "chisel:create": "chisel create-app",
+    "chisel:rojo": "chisel generate-project"
   },
   "files": [
     "bin",
@@ -21,7 +22,8 @@
     "roblox",
     "roblox-ts",
     "rbxts",
-    "quasar",
+    "chisel",
+    "whimco",
     "game-framework"
   ],
   "author": "you",
@@ -38,5 +40,8 @@
     "@rbxts/types": {
       "optional": true
     }
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
