@@ -1,6 +1,6 @@
 {
   "name": "@whimco/chisel-cli",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "type": "commonjs",
   "bin": {
     "chisel": "./bin/cli.js",
